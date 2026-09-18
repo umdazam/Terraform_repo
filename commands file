@@ -1,0 +1,9 @@
+creation of commands file to list out all the commands of terraform
+===================================================================
+terraform -version = to check the version of terraform
+terraform init = Initialize the Terraform working directory and download providers/modules.
+terraform validate = to validate all the file & syntax is validate
+terraform fmt = to reset the all the syntax of a .tf file
+terraform plan = review what Terraform will create, modify, or destroy.
+terraform apply -auto-approve = Apply without asking for confirmation.
+terraform state list = listing out the resources all managed by terraform
